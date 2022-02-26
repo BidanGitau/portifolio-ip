@@ -45,12 +45,22 @@ li a:hover {
     color: rgb(188, 231, 120);
 }
 
-.dcontainer {
-    position: absolute;
-    background-attachment: fixed;
+.main {
+    display: flex;
+    text-align: end;
+    justify-content: center;
+    align-content: center;
 }
 
-.description {
+.container {
+    position: relative;
     background-attachment: fixed;
     background-image: url(../images/port.jpeg) no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: max-content;
+    width: max-content;
 }
+
+.description {}
