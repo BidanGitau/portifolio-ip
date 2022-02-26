@@ -20,6 +20,8 @@
 .navigation {
     list-style: none;
     display: flex;
+    margin-right: 30px;
+    align-items: center;
 }
 
 .navigation li {
@@ -35,5 +37,20 @@ li a {
     font-weight: 600;
     padding: 20px;
     margin: 5px;
+    border: 2px solid transparent;
+}
+
+li a:hover {
     border: solid red 2px;
+    color: rgb(188, 231, 120);
+}
+
+.dcontainer {
+    position: absolute;
+    background-attachment: fixed;
+}
+
+.description {
+    background-attachment: fixed;
+    background-image: url(../images/port.jpeg) no-repeat;
 }
