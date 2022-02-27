@@ -4,7 +4,7 @@
     font-size: 16px;
     box-sizing: border-box;
     overflow-x: hidden;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: poppins;
 }
 
 body {
@@ -81,7 +81,7 @@ li a:hover {
     box-shadow: 5px 5px rgb(65, 76, 112), 10px 10px rgba(168, 141, 230, 0.11), 15px 15px rgb(208, 216, 208);
 }
 
-.description p,
+.description .p-1,
 h3 {
     font-size: 2rem;
     font-family: 'Courier New', Courier, monospace;
@@ -119,22 +119,29 @@ h3 {
     display: flex;
     height: 400px;
     position: relative;
+    background: #000;
+    padding-bottom: 10px;
 }
 
-.intro {
-    text-align: center;
-    justify-content: space-between;
+#content::after {
+    margin-bottom: 10px;
 }
 
 .intro h1,
 p {
+    text-align: center;
     padding: 10px;
-    margin-top: 30px;
+    margin-right: 80px;
+    font-size: 2rem;
+    color: white;
+    font-weight: 800;
+    font-family: poppins;
+    /* box-shadow: 0 3px 10px rgba(255, 0, 0, 0.2); */
 }
 
 .image img {
     object-fit: cover;
-    margin-left: -120px;
+    justify-content: flex-start;
     width: 90%;
     height: 100%;
 }
@@ -144,8 +151,7 @@ p {
     text-align: center;
     font-family: sans-serif;
     background: #000;
-    height: 60px;
-    box-shadow: rgba(48, 48, 204, 0.25) 0px 50px 100px -20px, rgba(192, 69, 69, 0.3) 0px 30px 60px -30px;
+    height: 70px;
 }
 
 .head-about {
@@ -155,4 +161,23 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+}
+
+
+/* education and skill */
+
+.more-about .title {
+    text-align: center;
+    font-family: poppins;
+    font-weight: 900;
+    font-size: 1.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.box {
+    display: flex;
+    gap: 10px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
