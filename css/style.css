@@ -81,7 +81,8 @@ li a:hover {
     box-shadow: 5px 5px rgb(65, 76, 112), 10px 10px rgba(168, 141, 230, 0.11), 15px 15px rgb(208, 216, 208);
 }
 
-.description p {
+.description p,
+h3 {
     font-size: 2rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
@@ -91,6 +92,14 @@ li a:hover {
 .desc-name {
     font-size: 8rem;
     background: url('../images/star.jpg');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.occupation {
+    font-size: 3rem;
+    background: url('../images/logo.png');
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
