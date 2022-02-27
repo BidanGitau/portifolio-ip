@@ -13,7 +13,7 @@ for vs code or atom IDE
 ## Known Bugs
 No bugs  
 ## Technologies Used
-Technologies used are Html,Cssand Bootstrap
+Technologies used are Html,Css and Bootstrap
 ## Support and contact details
 For any question or sugggestions you can mail:bidangitau220@gmail.com
 ### License
