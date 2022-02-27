@@ -57,7 +57,7 @@ li a:hover {
     background-position: 0 0;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 93vh;
     width: auto;
     overflow: hidden;
     position: relative;
@@ -89,16 +89,68 @@ h3 {
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
-.desc-name {
-    font-size: 8rem;
-    background: url('../images/star.jpg');
+
+/* .desc-name {
+    font-size: 4rem;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-}
+} */
 
 .occupation {
+    font-size: 2rem;
+    /* background: url('../images/logo.png');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+/* about section styling */
+
+#content {
+    display: inline-flex;
+    text-align: center;
+    gap: 10px;
+    padding: 10;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    height: 400px;
+    position: relative;
+}
+
+.intro {
+    text-align: center;
+    justify-content: space-between;
+}
+
+.intro h1,
+p {
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.image img {
+    object-fit: cover;
+    margin-left: -120px;
+    width: 90%;
+    height: 100%;
+}
+
+.about-h {
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    background: #000;
+    height: 60px;
+    box-shadow: rgba(48, 48, 204, 0.25) 0px 50px 100px -20px, rgba(192, 69, 69, 0.3) 0px 30px 60px -30px;
+}
+
+.head-about {
     font-size: 3rem;
+    font-weight: bold;
     background: url('../images/logo.png');
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
