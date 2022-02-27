@@ -223,4 +223,34 @@ h5 {
 .box {
     display: flex;
     flex-flow: row nowrap;
+    gap: 30px;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.adress {
+    margin-top: 5PX;
+    padding: 15px;
+    border: 4px solid rgb(68, 67, 67);
+    border-top-left-radius: 30px 110px;
+    border-top-right-radius: 19px 120px;
+    border-bottom-left-radius: 100px 19px;
+    border-bottom-right-radius: 110px 24px;
+}
+
+.icons {
+    margin-top: 5px;
+    padding: 15px;
+    box-shadow: 0 3px 10px rgba(255, 0, 0, 0.2);
+    border: 4px solid rgb(243, 225, 225);
+    border-top-left-radius: 30px 160px;
+    border-top-right-radius: 30px 10px;
+    border-bottom-left-radius: 10px 19px;
+    border-bottom-right-radius: 10px 24px;
+}
+
+.adress:hover {
+    transform: translateX(-10px) rotate(1deg);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
 }
